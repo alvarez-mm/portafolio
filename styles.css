@@ -153,10 +153,11 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-left: 15px;
 }
 
-.maquetado , .club , .fiu {
-    width: 32%;
+.maquetado , .club ,.fiu {
+    width: 96%;
     padding: 2px;
     border-top-left-radius: 20%;
     border-bottom-right-radius: 20%;
