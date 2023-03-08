@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* I N I C I O */
+
+body {
+    background-image: linear-gradient( to bottom,  rgb(252, 183, 217),rgb(247, 215, 157),rgb(247, 247, 146),rgb(247, 247, 146),rgb(247, 247, 146),rgb(247, 247, 146),rgb(247, 247, 146),rgb(247, 247, 146));
+}
+
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+    float: right;
+    margin-right: 3rem;
+    position: relative;
+}
+
+li {
+    padding: 8px 30px 8px 30px;
+    margin: 1rem;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(78, 75, 75);
+    font-family: 'Amatic SC', cursive;
+    font-size: 2rem;
+}
+
+.github {
+    width: 3%;
+    position: absolute;
+    margin: 20px;
+}
+
+.whatsapp , .linkedin , .instagram , .facebook , .mail {
+    width: 2%;
+    position: absolute;
+    opacity: 80%;
+}
+
+.whatsapp {
+    margin-left: 92%;
+    margin-top: 35%;
+}
+
+.linkedin {
+    margin-left: 90%;
+    margin-top: 38%;
+}
+
+.instagram {
+    margin-left: 88%;
+    margin-top: 41%;
+
+}
+
+.facebook {
+    margin-left: 85%;
+    margin-top: 43%;
+
+}
+
+.mail {
+    margin-left: 82%;
+    margin-top: 45%;
+
+}
+
+.imagenInicio {
+    width: 50%;
+    border-end-end-radius: 50%;
+    border-top-left-radius: 70%;
+    float: right;
+    margin: 6rem;
+}
+
+.hola {
+    position: absolute;
+    margin-left: 4%;
+    margin-top: 11%;
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: rgb(43, 41, 41);
+    font-size: 2.4rem;
+    font-weight: lighter;
+}
+
+.nombre , .nombre2 , .apellido {
+    margin-left: 12%;
+    position: absolute;
+    font-family: 'Rampart One', cursive;
+    font-size: 4.5rem;
+    padding: 1px 15px 1px 10px;
+    text-shadow: 3px 3px white ;
+    color: rgb(43, 41, 41);
+    background-image: linear-gradient(to right , rgb(250, 158, 204), rgb(247, 159, 203) , rgb(250, 202, 140), rgb(253, 164, 81) );
+    border-radius: 500%;
+    opacity: 92%;
+}
+
+.nombre {
+    margin-top: 14%;
+}
+
+.nombre2 {
+    margin-top: 21%;
+}
+
+.apellido {
+    margin-top: 28%;
+}
+
+.profesiones  {
+    position: absolute;
+    margin-left: 12%;
+    margin-top: 38%;
+    color: rgb(59, 56, 56);
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-weight: lighter;
+    font-size: 1.1rem;
+}
+
+
+
+/* P A G I N A   P O R T A F O L I O */
+
+
+.contenedorPortafolio  {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: linear-gradient( to bottom,  rgb(252, 183, 217),rgb(247, 247, 146));
+}
+
+.presentacion {
+    margin: 6% 2% 3% 2%;
+    font-family: 'Zilla Slab', serif;
+    color: rgb(43, 37, 37);
+    font-size: 2rem;
+    text-align: center;
+    font-weight: lighter;
+    text-shadow: 1px 1px white ;
+}
+
+.imagenesPortafolio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.maquetado , .club , .fiu {
+    width: 32%;
+    padding: 2px;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
+.habilidades {
+    font-family: 'Zilla Slab', serif;
+    color: rgb(43, 37, 37);
+    font-size: 1.8rem;
+    text-shadow: 2px 2px white ;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 6%;
+    margin-bottom: 1%;
+}
+
+.iconosHabilidades {
+    width: 100%;
+}
+
+
+
+/* P A G I N A   S O B R E    M I */
+
+.contenedorSobremi  {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: linear-gradient( to bottom,  rgb(252, 183, 217),rgb(247, 247, 146));
+}
+
+.contenidoSobremi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
+.imagenSobremi {
+    width: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 70%;
+    float: left;
+    padding: 20px;
+}
+
+.textoSobremi {
+    font-family: 'Zilla Slab', serif;
+    color: black;
+    font-size: 1.7rem;
+    text-shadow: 1px 1px white ;
+    font-weight: lighter;
+    margin: 50px;
+    text-align: center;  
+}
+
+.botonCv {
+    width: 20%;
+    padding: 6px;
+    float: right;
+    margin-right: 15%;
+    background-color: rgb(252, 183, 217);
+    border-color: white;
+    font-family: 'Zilla Slab', cursive;
+    font-size: 1.5rem;
+}
