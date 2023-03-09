@@ -6,7 +6,9 @@
 
 /* I N I C I O */
 
-body {
+.contenedorInicio {
+
+    height: 100vh;
     background-image: linear-gradient( to bottom,  rgb(252, 183, 217),rgb(247, 215, 157),rgb(247, 247, 146),rgb(247, 247, 146),rgb(247, 247, 146),rgb(247, 247, 146),rgb(247, 247, 146),rgb(247, 247, 146));
 }
 
@@ -224,4 +226,522 @@ a {
     border-color: white;
     font-family: 'Zilla Slab', cursive;
     font-size: 1.5rem;
+}
+
+
+
+@media screen and (max-width: 1240px) {
+    .nombre {
+        margin-top: 14%;
+    }
+    
+    .nombre2 {
+        margin-top: 22%;
+    }
+    
+    .apellido {
+        margin-top: 30%;
+    }
+
+    .profesiones  {
+        margin-top: 40%;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .nombre {
+        margin-top: 16%;
+    }
+    
+    .nombre2 {
+        margin-top: 23%;
+    }
+    
+    .apellido {
+        margin-top: 30%;
+    }
+
+    .profesiones  {
+        margin-top: 41%;
+    }
+
+    .whatsapp {
+        margin-left: 92%;
+        margin-top: 37%;
+    }
+    
+    .linkedin {
+        margin-left: 90%;
+        margin-top: 40%;
+    }
+    
+    .instagram {
+        margin-left: 88%;
+        margin-top: 43%;
+    
+    }
+    
+    .facebook {
+        margin-left: 85%;
+        margin-top: 45%;
+    
+    }
+    
+    .mail {
+        margin-left: 82%;
+        margin-top: 47%;
+    
+    }
+
+    .nombre , .nombre2 , .apellido {
+        font-size: 4rem;
+    }
+
+    .profesiones  {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .nombre , .nombre2 , .apellido {
+        font-size: 3.7rem;
+    }
+
+    .profesiones  {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .hola {
+        margin-top: 15%;
+    }
+
+    .nombre {
+        margin-top: 20%;
+    }
+    
+    .nombre2 {
+        margin-top: 28%;
+    }
+    
+    .apellido {
+        margin-top: 36%;
+    }
+
+    .profesiones  {
+        margin-top: 47%;
+    }
+
+    .imagenInicio {
+        width: 49%;
+    }
+
+    .whatsapp {
+        margin-left: 90%;
+        margin-top: 39%;
+    }
+    
+    .linkedin {
+        margin-left: 88%;
+        margin-top: 42%;
+    }
+    
+    .instagram {
+        margin-left: 86%;
+        margin-top: 45%;
+    
+    }
+    
+    .facebook {
+        margin-left: 83%;
+        margin-top: 47%;
+    
+    }
+    
+    .mail {
+        margin-left: 80%;
+        margin-top: 49%;
+    
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .hola {
+        font-size: 1.8rem;
+    }
+
+    .nombre , .nombre2 , .apellido {
+        font-size: 3.2rem;
+    }
+
+    .profesiones  {
+        font-size: 0.7rem;
+    }
+
+    .whatsapp {
+        margin-left: 88%;
+        margin-top: 42%;
+    }
+    
+    .linkedin {
+        margin-left: 86%;
+        margin-top: 45%;
+    }
+    
+    .instagram {
+        margin-left: 83%;
+        margin-top: 48%;
+    
+    }
+    
+    .facebook {
+        margin-left: 80%;
+        margin-top: 50%;
+    
+    }
+    
+    .mail {
+        margin-left: 77%;
+        margin-top: 52%;
+    
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .a {
+        font-size: 1.2rem;
+    }
+
+    .nombre , .nombre2 , .apellido {
+        font-size: 3rem;
+    }
+
+    .whatsapp {
+        margin-left: 55%;
+        margin-top: 56%;
+    }
+    
+    .linkedin {
+        margin-left: 51%;
+        margin-top: 56%;
+    }
+    
+    .instagram {
+        margin-left: 47%;
+        margin-top: 56%;
+    
+    }
+    
+    .facebook {
+        margin-left: 43%;
+        margin-top: 56%;
+    
+    }
+    
+    .mail {
+        margin-left: 39%;
+        margin-top: 56%;
+    
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .menuLineal {
+        display: none;
+    }
+
+    .hola {
+        margin-top: 10%;
+        margin-left: 12%;
+        font-size: 2rem;
+    }
+
+    .nombre {
+        margin-top: 17%;
+        margin-left: 9%;
+    }
+    
+    .nombre2 {
+        margin-top: 25%;
+        margin-left: 9%;
+    }
+    
+    .apellido {
+        margin-top: 33%;
+        margin-left: 9%;
+    }
+
+    .imagenInicio {
+        width: 80%;
+    }
+
+    .profesiones {
+        width: 20%;
+        font-size: 1rem;
+        margin-top: 49%;
+        margin-left: 8%;
+    }
+
+    .whatsapp , .linkedin , .instagram , .facebook , .mail {
+        width: 3%;
+    }
+
+    .whatsapp {
+        margin-left: 86%;
+        margin-top: 48%;
+    }
+    
+    .linkedin {
+        margin-left: 83%;
+        margin-top: 53%;
+    }
+    
+    .instagram {
+        margin-left: 78%;
+        margin-top: 57%;
+    
+    }
+    
+    .facebook {
+        margin-left: 72%;
+        margin-top: 60%;
+    
+    }
+    
+    .mail {
+        margin-left: 66%;
+        margin-top: 63%;
+    
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .hola {
+        font-size: 1.8rem;   
+    }
+
+    .imagenInicio {
+        width: 70%;
+    }
+
+    .nombre , .nombre2 , .apellido {
+        font-size: 2.8rem;
+    }
+
+    .profesiones {
+        font-size: 0.9;
+        margin-top: 47%;
+        margin-left: 18%;
+    }
+
+    .whatsapp {
+        margin-left: 86%;
+        margin-top: 44%;
+    }
+    
+    .linkedin {
+        margin-left: 83%;
+        margin-top: 50%;
+    }
+    
+    .instagram {
+        margin-left: 78%;
+        margin-top: 54%;
+    
+    }
+    
+    .facebook {
+        margin-left: 72%;
+        margin-top: 57%;
+    
+    }
+    
+    .mail {
+        margin-left: 65%;
+        margin-top: 60%;
+    
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .hola {
+        font-size: 1.7rem;   
+    }
+
+    .nombre , .nombre2 , .apellido {
+        font-size: 2.7rem;
+    }
+
+    .profesiones {
+        font-size: 0.8;
+    }
+
+    .whatsapp {
+        margin-left: 84%;
+        margin-top: 46%;
+    }
+    
+    .linkedin {
+        margin-left: 81%;
+        margin-top: 51%;
+    }
+    
+    .instagram {
+        margin-left: 76%;
+        margin-top: 55%;
+    
+    }
+    
+    .facebook {
+        margin-left: 70%;
+        margin-top: 58%;
+    
+    }
+    
+    .mail {
+        margin-left: 64%;
+        margin-top: 60%;
+    
+    }   
+}
+
+@media screen and (max-width: 660px) {
+
+    .nombre , .nombre2 , .apellido {
+        font-size: 2.4rem;
+    }
+
+    .profesiones {
+        font-size: 0.4;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .contenedorInicio {
+        background-image: linear-gradient( to bottom,  rgb(252, 183, 217),rgb(247, 247, 146));
+    }
+    
+    .imagenInicio {
+        width: 100%;
+        margin-top: 5%;
+        margin-right: 10%;
+        padding-left: 20%;
+    }
+    
+    .hola {
+        font-size: 2.5rem; 
+        margin-top: 65%;  
+    }
+
+    .nombre , .nombre2 , .apellido {
+        font-size: 4rem;
+    }
+
+    .nombre {
+        margin-top: 77%;
+        margin-left: 20%;
+    }
+
+    .nombre2 {
+        margin-top: 91%;
+        margin-left: 20%;
+    }
+
+    .apellido {
+        margin-top: 105%;
+        margin-left: 20%;
+    }
+
+    .profesiones {
+        font-size: 1.5rem;
+        width: 90%;
+        margin-top: 127%;
+        margin-left: 5%;
+        text-align: center;
+    }
+
+    .whatsapp , .linkedin , .instagram , .facebook , .mail {
+        width: 5%;
+    }
+
+    .whatsapp {
+        margin-left: 86%;
+        margin-top: 43%;
+    }
+    
+    .linkedin {
+        margin-left: 81%;
+        margin-top: 49%;
+    }
+    
+    .instagram {
+        margin-left: 74%;
+        margin-top: 53%;
+    
+    }
+    
+    .facebook {
+        margin-left: 66%;
+        margin-top: 56%;
+    
+    }
+    
+    .mail {
+        margin-left: 58%;
+        margin-top: 58%;
+    
+    }   
+}
+
+@media screen and (max-width: 540px) {
+    .nombre , .nombre2 , .apellido {
+        margin-left: 10%;
+    }
+
+    .nombre {
+        margin-top: 79%;
+    }
+
+    .nombre2 {
+        margin-top: 96%;
+    }
+
+    .apellido {
+        margin-top: 113%;
+    }
+
+    .profesiones {
+        margin-top: 138%;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .hola {
+        font-size: 2.2rem; 
+        margin-top: 68%;  
+    }
+
+    .nombre , .nombre2 , .apellido {
+        font-size: 3.1rem;
+    }
+
+    .nombre {
+        margin-top: 80%;
+    }
+
+    .nombre2 {
+        margin-top: 96%;
+    }
+
+    .apellido {
+        margin-top: 112%;
+    }
+
+    .profesiones {
+        font-size: 1.6rem;
+    }
 }
