@@ -301,6 +301,18 @@ a {
     .profesiones  {
         font-size: 1rem;
     }
+
+    .contenidoSobremi {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-right: 40px;
+        margin-left: 20px;
+    }
+
+    .imagenSobremi {
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 1090px) {
@@ -407,6 +419,18 @@ a {
         margin-left: 77%;
         margin-top: 52%;
     
+    }
+
+    .imagenesPortafolio {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }   
+    
+    .maquetado , .club ,.fiu {
+        width: 90%;
+        margin-left: 4%;
+        margin-bottom: 4%;
     }
 }
 
@@ -515,6 +539,18 @@ a {
         margin-left: 66%;
         margin-top: 63%;
     
+    }
+
+    .imagenSobremi {
+        margin-top: 10%;
+    }
+        
+    .botonCv {
+        width: 40%;
+    }
+
+    .github {
+        width: 5%;
     }
 }
 
@@ -693,7 +729,20 @@ a {
         margin-left: 58%;
         margin-top: 58%;
     
-    }   
+    }  
+    
+    .presentacion {
+        font-size: 1.5rem;
+        margin-top: 12%;
+    }
+
+    .habilidades {
+        font-size: 1.5rem;
+    }
+
+    .github {
+        width: 5%;
+    }
 }
 
 @media screen and (max-width: 540px) {
@@ -716,6 +765,20 @@ a {
     .profesiones {
         margin-top: 138%;
         margin-left: 5%;
+    }
+
+    .imagenSobremi {
+        width: 100%;
+    }
+
+    .textoSobremi {
+        font-size: 1.3rem;
+        margin: 5%;
+    }
+    
+    .botonCv {
+        width: 75%;
+        font-size: 1rem;
     }
 }
 
@@ -744,6 +807,14 @@ a {
     .profesiones {
         font-size: 1.6rem;
     }
+
+    .github {
+        width: 7%;
+    }
+
+    .presentacion {
+        margin-top: 15%;
+    }
 }
 
 @media screen and (max-width: 360px) {
@@ -757,6 +828,24 @@ a {
 
     .profesiones {
         font-size: 1.2rem;
+    }
+
+    .presentacion {
+        font-size: 1.3rem;
+        margin-top: 20%;
+    }
+
+    .habilidades {
+        font-size: 1.2rem;
+    }
+
+    .github {
+        width: 9%;
+    }
+
+    .imagenSobremi {
+        width: 109%;
+        padding-top: 12%;
     }
 }
 
