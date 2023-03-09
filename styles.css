@@ -745,3 +745,31 @@ a {
         font-size: 1.6rem;
     }
 }
+
+@media screen and (max-width: 360px) {
+    .hola {
+        font-size: 1.8rem; 
+    }
+
+    .nombre , .nombre2 , .apellido {
+        font-size: 2.8rem;
+    }
+
+    .profesiones {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .hola {
+        font-size: 1.8rem; 
+    }
+
+    .nombre , .nombre2 , .apellido {
+        font-size: 2.6rem;
+    }
+
+    .profesiones {
+        font-size: 1rem;
+    }
+}
